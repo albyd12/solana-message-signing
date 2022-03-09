@@ -1,0 +1,76 @@
+.wallet-container {
+  position: absolute;
+  left:0px;top:0px;right:0px;
+  height:80px;
+  background-color: rgb(16, 16, 20);
+  z-index: 1;
+  border-bottom:1px solid rgb(97, 44, 196);
+  text-align: left;
+  padding:15px;
+  line-height:50px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+.wallet {
+  float: right;
+}
+.wallet-container h3 {
+  float:left;
+  color:white;
+  margin:0px;
+}
+
+.content {
+  width:100px;
+  margin-top:80px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:15px;
+  width:100%;
+  text-align: center;
+}
+
+.sign-button {
+  background-color: rgb(97, 44, 196);
+  border:none;outline:none;
+  color:white;
+  padding:15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.sign-button:hover {
+  background-color: rgb(30, 30, 49);
+}
+
+.status {
+  padding: 30px;
+  border-radius:30px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  left:calc(50% - 175px);
+  margin:20px 0;
+  width:350px;
+  background-color:#dfdfdf15;
+  border: 1px solid rgb(207, 207, 207);
+  transition: 0.2s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.success {
+  background-color:#7df87d15;
+  border: 1px solid rgb(117, 236, 117);
+  opacity: 1;
+}
+.error {
+  background-color:#f87d7d15;
+  border: 1px solid rgb(236, 117, 117);
+  opacity: 1;
+}

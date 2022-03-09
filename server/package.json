@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bs58": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
