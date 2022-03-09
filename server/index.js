@@ -1,5 +1,5 @@
 const express = require("express");
-var cors = require('cors');
+const cors = require('cors');
 
 const nacl = require("tweetnacl");
 const bs58 = require("bs58");
