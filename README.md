@@ -1,4 +1,4 @@
-### Solana Message Signing
+## Solana Message Signing
 
 Simple example of using the solana-wallet-adapter to sign a message, then verifying it on the server side.
 
