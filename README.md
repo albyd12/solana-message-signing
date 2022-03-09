@@ -8,14 +8,14 @@ Simple example of using the solana-wallet-adapter to sign a message, then verify
 - Send result to client
 
 -----
-#####Setting up the server
+##### Setting up the server
 ```
 cd server
 npm install
 npm run dev
 ```
 ----
-#####Starting the client
+##### Starting the client
 ```
 cd client
 npm install
